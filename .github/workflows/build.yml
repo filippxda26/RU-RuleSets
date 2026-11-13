@@ -1,0 +1,63 @@
+name: Build RU sing-box rule sets
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "geoip/ru.json"
+      - "geosite/ru.json"
+      - ".github/workflows/build.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rule-sets-main
+  cancel-in-progress: true
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out rules
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Install sing-box 1.14.4
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fL --retry 3 --retry-delay 2 \
+            -o /tmp/sing-box.tar.gz \
+            "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-linux-amd64.tar.gz"
+          mkdir -p /tmp/sing-box-extracted
+          tar -xzf /tmp/sing-box.tar.gz -C /tmp/sing-box-extracted
+          binary="$(find /tmp/sing-box-extracted -type f -name sing-box -print -quit)"
+          test -n "$binary"
+          sudo install -m 755 "$binary" /usr/local/bin/sing-box
+          sing-box version
+
+      - name: Compile rule sets
+        shell: bash
+        run: |
+          set -euo pipefail
+          sing-box rule-set compile --output geoip/ru.srs geoip/ru.json
+          sing-box rule-set compile --output geosite/ru.srs geosite/ru.json
+          test -s geoip/ru.srs
+          test -s geosite/ru.srs
+          sing-box rule-set decompile --output /tmp/ru-geoip-check.json geoip/ru.srs
+          sing-box rule-set decompile --output /tmp/ru-geosite-check.json geosite/ru.srs
+
+      - name: Publish compiled rule sets
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add geoip/ru.srs geosite/ru.srs
+          if ! git diff --cached --quiet; then
+            git commit -m "Build Russia GeoIP and GeoSite .srs"
+            git push origin HEAD:main
+          fi
