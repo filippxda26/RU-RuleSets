@@ -107,7 +107,7 @@ def query_domain(name, services):
                 raw = query_whois(candidate)
             except (OSError, UnicodeError) as exc:
                 return {"status": "unverified", "source": "whois.tcinet.ru", "error": str(exc)[:160]}
-            match = re.search(r"^org:\s*(.+)$", raw, re.M | re.I)
+            match = re.search(r"^org:[ \t]*(\S[^\n]*)$", raw, re.M | re.I)
             if match:
                 # WHOIS provides an organisation but not its legal country.
                 return {"status": "unverified", "organization": match[1].strip(), "source": "whois.tcinet.ru", "queried": candidate}
@@ -121,7 +121,7 @@ def query_domain(name, services):
         try:
             data = fetch_json(url)
         except HTTPError as exc:
-            if exc.code == 404:
+            if exc.code in (400, 404):
                 continue
             return {"status": "unverified", "source": url, "error": "HTTP " + str(exc.code)}
         except (OSError, ValueError, URLError) as exc:
@@ -174,7 +174,12 @@ def run(root, max_domains, max_ips, delay, offline=False):
 
     def needs_check(key):
         entry = cache.get(key)
-        return entry is None or now - entry.get("checked_at", 0) > 45 * 86400
+        if not entry:
+            return True
+        # A prior parser mistakenly swallowed the next line after an empty "org:".
+        if entry.get("source") == "whois.tcinet.ru" and entry.get("organization") == "taxpayer-id:":
+            return True
+        return now - entry.get("checked_at", 0) > 45 * 86400
 
     count_domain = count_ip = 0
     for kind, domain in audited:
@@ -214,8 +219,14 @@ def run(root, max_domains, max_ips, delay, offline=False):
     write(audit / "unverified-domains.json", rules(domain_unknown))
     write(audit / "foreign-ip.json", rules({"ip_cidr": ip_foreign}))
     write(audit / "unverified-ip.json", rules({"ip_cidr": ip_unknown}))
-    print(f"Registry checks: domains={count_domain}, CIDRs={count_ip}; foreign domains={sum(map(len,domain_foreign.values()))}, foreign CIDRs={len(ip_foreign)}")
-    print(f"Unverified: domains={sum(map(len,domain_unknown.values()))}, CIDRs={len(ip_unknown)}. Active rules unchanged.")
+    checked_domains = sum(1 for kind, domain in audited if kind + ":" + domain in cache or kind + ":" + domain in manual)
+    checked_ips = sum(1 for cidr in networks if "ip:" + cidr in cache or "ip:" + cidr in manual)
+    russian_domains = sum(1 for kind, domain in audited if status_for(kind + ":" + domain) == "russian")
+    russian_ips = sum(1 for cidr in networks if status_for("ip:" + cidr) == "russian")
+    print(f"Registry checks this run: domains={count_domain}, CIDRs={count_ip}")
+    print(f"Cached or documented: domains={checked_domains}/{len(audited)}, CIDRs={checked_ips}/{len(networks)}")
+    print(f"Ownership statuses: Russian domains={russian_domains}, foreign domains={sum(map(len,domain_foreign.values()))}; Russian CIDRs={russian_ips}, foreign CIDRs={len(ip_foreign)}")
+    print(f"Unverified (including not yet checked): domains={sum(map(len,domain_unknown.values()))}, CIDRs={len(ip_unknown)}. Active rules unchanged.")
 
 
 def main():

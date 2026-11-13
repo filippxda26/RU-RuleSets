@@ -44,5 +44,29 @@ class OwnershipAuditTests(unittest.TestCase):
             self.assertEqual(audit.load(root / "audit/foreign-ip.json")["rules"][0]["ip_cidr"], ["1.2.3.0/24"])
 
 
+    def test_whois_blank_org_does_not_consume_next_field(self):
+        empty = "domain: example.ru\norg:\ntaxpayer-id: 12345\nregistrar: TEST\n"
+        with patch.object(audit, "query_whois", return_value=empty):
+            result = audit.query_domain("sub.example.ru", {})
+        self.assertEqual(result["status"], "unverified")
+        self.assertNotIn("organization", result)
+
+        filled = "domain: example.ru\norg: LLC Example\ntaxpayer-id: 12345\n"
+        with patch.object(audit, "query_whois", return_value=filled):
+            result = audit.query_domain("sub.example.ru", {})
+        self.assertEqual(result["organization"], "LLC Example")
+        self.assertEqual(result["status"], "unverified")
+
+    def test_http_400_on_subdomain_tries_parent(self):
+        from urllib.error import HTTPError
+        with patch.object(audit, "fetch_json", side_effect=[
+            HTTPError("https://rdap.example/domain/sub.example.com", 400, "invalid", None, None),
+            {"entities": []}
+        ]) as request:
+            result = audit.query_domain("sub.example.com", {"com": "https://rdap.example"})
+        self.assertEqual(request.call_count, 2)
+        self.assertEqual(result["queried"], "example.com")
+        self.assertEqual(result["status"], "unverified")
+
 if __name__ == "__main__":
     unittest.main()
