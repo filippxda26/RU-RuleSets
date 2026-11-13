@@ -1,0 +1,8 @@
+{
+  "rules": [
+    {
+      "ip_cidr": []
+    }
+  ],
+  "version": 1
+}
