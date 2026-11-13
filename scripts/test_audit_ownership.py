@@ -142,5 +142,70 @@ class OwnershipAuditTests(unittest.TestCase):
             result = audit.load(root / "audit/foreign-domains.json")
             self.assertEqual(result["rules"][0]["domain_suffix"], [])
 
+
+    def test_ripe_organisation_country_from_explicit_org_object(self):
+        record = {"objects": {"object": [{"type": "organisation", "attributes": {"attribute": [
+            {"name": "organisation", "value": "ORG-TEST1-RIPE"},
+            {"name": "org-name", "value": "Test Networks LLC"},
+            {"name": "org-type", "value": "LIR"},
+            {"name": "country", "value": "RU"}
+        ]}}]}}
+        with patch.object(audit, "fetch_json", return_value=record) as requester:
+            result = audit.ripe_organisation("ORG-TEST1-RIPE", {})
+        self.assertEqual(result["country"], "RU")
+        self.assertEqual(result["organization"], "Test Networks LLC")
+        self.assertTrue(requester.call_args[0][0].endswith("ORG-TEST1-RIPE.json"))
+
+    def test_ripe_lookup_excludes_registry_itself(self):
+        with patch.object(audit, "fetch_json") as requester:
+            self.assertIsNone(audit.ripe_organisation("ORG-NCC1-RIPE", {}))
+            requester.assert_not_called()
+
+    def test_rir_org_type_not_treated_as_resource_owner(self):
+        record = {"objects": {"object": [{"type": "organisation", "attributes": {"attribute": [
+            {"name": "organisation", "value": "ORG-TEST2-RIPE"},
+            {"name": "org-name", "value": "Registry itself"},
+            {"name": "org-type", "value": "RIR"},
+            {"name": "country", "value": "NL"}
+        ]}}]}}
+        with patch.object(audit, "fetch_json", return_value=record):
+            self.assertIsNone(audit.ripe_organisation("ORG-TEST2-RIPE", {}))
+
+    def test_network_classified_only_from_holder_organisation(self):
+        network = {
+            "startAddress": "198.51.100.0", "endAddress": "198.51.100.255",
+            "country": "RU", "name": "example", "entities": [
+                {"roles": ["registrant"], "handle": "ORG-TEST3-RIPE"}
+            ]
+        }
+        holder = {"objects": {"object": [{"type": "organisation", "attributes": {"attribute": [
+            {"name": "organisation", "value": "ORG-TEST3-RIPE"},
+            {"name": "org-name", "value": "Foreign Networks Ltd"},
+            {"name": "org-type", "value": "LIR"},
+            {"name": "country", "value": "GB"}
+        ]}}]}}
+        with patch.object(audit, "fetch_json", side_effect=[network, holder]) as requester:
+            result = audit.query_network("198.51.100.0/24", {})
+        self.assertEqual(requester.call_count, 2)
+        self.assertEqual(result["status"], "foreign")
+        self.assertEqual(result["country"], "GB")
+        self.assertEqual(result["network_country_hint"], "RU")
+
+    def test_no_country_in_holder_remains_unverified(self):
+        network = {
+            "startAddress": "198.51.100.0", "endAddress": "198.51.100.255",
+            "country": "RU", "entities": [
+                {"roles": ["registrant"], "handle": "ORG-TEST4-RIPE"}
+            ]
+        }
+        holder = {"objects": {"object": [{"type": "organisation", "attributes": {"attribute": [
+            {"name": "organisation", "value": "ORG-TEST4-RIPE"},
+            {"name": "org-name", "value": "Unknown Networks"},
+            {"name": "org-type", "value": "LIR"}
+        ]}}]}}
+        with patch.object(audit, "fetch_json", side_effect=[network, holder]):
+            result = audit.query_network("198.51.100.0/24", {})
+        self.assertEqual(result["status"], "unverified")
+
 if __name__ == "__main__":
     unittest.main()

@@ -17,7 +17,7 @@ ZONE_EXCEPTIONS = {"ru", "su", "xn--p1ai", ".ru", ".su", ".xn--p1ai"}
 WHOIS_TLDS = {"ru", "su", "xn--p1ai"}
 RU_COUNTRIES = {"RU", "RUSSIAN FEDERATION", "RUSSIA"}
 USER_AGENT = "RU-RuleSets ownership-audit/1.1 (registry verification)"
-AUDIT_SCHEMA_VERSION = 3
+AUDIT_SCHEMA_VERSION = 4
 
 
 def load(path, default=None):
@@ -165,7 +165,53 @@ def query_domain(name, services, memo=None):
     return {"status": "unverified", "source": "no domain registration found"}
 
 
-def query_network(cidr):
+def ripe_organisation(handle, memo=None):
+    """Get the explicit country of a RIPE resource-holder ORGANISATION object.
+
+    A network's country, routing ASN and administrative contacts are not legal
+    owner evidence. RIPE NCC itself is the registry, not the downstream holder.
+    """
+    handle = str(handle).upper()
+    if not re.fullmatch(r"ORG-[A-Z0-9-]+-RIPE", handle) or handle == "ORG-NCC1-RIPE":
+        return None
+    memo = {} if memo is None else memo
+    if handle in memo:
+        return memo[handle]
+    url = "https://rest.db.ripe.net/ripe/organisation/" + quote(handle, safe="") + ".json"
+    memo[handle] = None
+    try:
+        payload = fetch_json(url)
+    except (OSError, ValueError, URLError, HTTPError):
+        return None
+    objects = payload.get("objects", {}).get("object", [])
+    if not isinstance(objects, list):
+        return None
+    for obj in objects:
+        if not isinstance(obj, dict) or obj.get("type") != "organisation":
+            continue
+        attrs = obj.get("attributes", {}).get("attribute", [])
+        if not isinstance(attrs, list):
+            continue
+        fields = {str(a.get("name", "")).lower(): a.get("value") for a in attrs if isinstance(a, dict)}
+        if str(fields.get("organisation", "")).upper() != handle:
+            continue
+        if str(fields.get("org-type", "")).upper() == "RIR":
+            return None
+        country = str(fields.get("country") or "").strip().upper()
+        name = str(fields.get("org-name") or "").strip()
+        if not name or not country:
+            return None
+        if country not in RU_COUNTRIES and (
+            not re.fullmatch(r"[A-Z]{2}", country) or country in {"ZZ", "EU", "UN", "AP"}
+        ):
+            return None
+        result = {"organization": name, "country": country, "owner_source": url}
+        memo[handle] = result
+        return result
+    return None
+
+
+def query_network(cidr, org_memo=None):
     # RIPE redirects to the authoritative RIR for resources outside RIPE.
     url = "https://rdap.db.ripe.net/ip/" + quote(cidr, safe="/:")
     try:
@@ -186,6 +232,19 @@ def query_network(cidr):
         else:
             result["status"] = "unverified"
             result["reason"] = "RDAP registration range missing"
+        # Only enrich a full-range registration with an explicit organisation
+        # reference. Don't infer ownership from network name or country.
+        if result["status"] == "unverified" and "reason" not in result:
+            for entity in data.get("entities", []):
+                if not isinstance(entity, dict):
+                    continue
+                if not {"registrant", "holder"}.intersection(entity.get("roles", [])):
+                    continue
+                evidence = ripe_organisation(entity.get("handle"), org_memo)
+                if evidence:
+                    result.update(evidence)
+                    result["status"] = "russian" if evidence["country"] in RU_COUNTRIES else "foreign"
+                    break
     except (OSError, ValueError, URLError) as exc:
         result = {"status": "unverified", "source": url, "error": str(exc)[:160]}
     return result
@@ -234,6 +293,7 @@ def run(root, max_domains, max_ips, delay, offline=False):
                 entry.get("audit_version") != AUDIT_SCHEMA_VERSION or
                 now - entry.get("checked_at", 0) > 45 * 86400)
     count_domain = count_ip = 0
+    org_memo = {}
     domain_memo = {}
     for kind, domain in audited:
         key = kind + ":" + domain
@@ -247,7 +307,7 @@ def run(root, max_domains, max_ips, delay, offline=False):
     for cidr in networks:
         key = "ip:" + cidr
         if not offline and count_ip < max_ips and needs_check(key):
-            cache[key] = query_network(cidr)
+            cache[key] = query_network(cidr, org_memo)
             cache[key]["checked_at"] = now
             cache[key]["audit_version"] = AUDIT_SCHEMA_VERSION
             count_ip += 1
