@@ -1,21 +1,21 @@
 {
   "domain:1l-hit.mail.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "mail.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:1l-hit.vkplay.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "vkplay.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:activate.activation-v2.kaspersky.com": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "organization": null,
     "queried": "kaspersky.com",
@@ -23,8 +23,8 @@
     "status": "unverified"
   },
   "domain:activation-v2.geo.kaspersky.com": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "organization": null,
     "queried": "kaspersky.com",
@@ -32,8 +32,8 @@
     "status": "unverified"
   },
   "domain:activation-v2.kaspersky.com": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "organization": null,
     "queried": "kaspersky.com",
@@ -41,22 +41,22 @@
     "status": "unverified"
   },
   "domain:ad.ozone.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "ozone.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:ad4.mail.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "mail.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:adblogger.vk.com": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "organization": null,
     "queried": "vk.com",
@@ -64,43 +64,43 @@
     "status": "unverified"
   },
   "domain:adblogger.vk.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "vk.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:adfstat.yandex.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "yandex.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:ads-gate.wildberries.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "wildberries.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:ads-integration.rustore.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "rustore.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:ads-media.wildberries.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "wildberries.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:ads.dahlmessenger.com": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "organization": null,
     "queried": "dahlmessenger.com",
@@ -108,8 +108,8 @@
     "status": "unverified"
   },
   "domain:ads.icq.com": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "organization": null,
     "queried": "icq.com",
@@ -117,15 +117,15 @@
     "status": "unverified"
   },
   "domain:ads.rustore.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "rustore.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:ads.vk.com": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "organization": null,
     "queried": "vk.com",
@@ -133,36 +133,36 @@
     "status": "unverified"
   },
   "domain:ads.vk.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "vk.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:ads.wildberries.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "wildberries.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:ads.x5.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "x5.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:ads.x5media.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "x5media.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:ads.yandex.com": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "organization": null,
     "queried": "yandex.com",
@@ -170,8 +170,8 @@
     "status": "unverified"
   },
   "domain:ads.yango.com": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "organization": null,
     "queried": "yango.com",
@@ -179,8 +179,8 @@
     "status": "unverified"
   },
   "domain:adsapp.dahlmessenger.com": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "organization": null,
     "queried": "dahlmessenger.com",
@@ -188,8 +188,8 @@
     "status": "unverified"
   },
   "domain:adsapp.stage.telega.info": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "organization": null,
     "queried": "telega.info",
@@ -197,8 +197,8 @@
     "status": "unverified"
   },
   "domain:adsapp.telega.info": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "organization": null,
     "queried": "telega.info",
@@ -206,92 +206,92 @@
     "status": "unverified"
   },
   "domain:adsdk.yandex.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "yandex.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:adv.ozon.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "ozon.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:adv.rustore.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "rustore.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:adv.vk.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "vk.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:advert-api-sandbox.wb.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "wb.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:advert-api-sandbox.wildberries.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "wildberries.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:advert-api.wb.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "wb.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:advert-api.wildberries.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "wildberries.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:advert-media-api.wb.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "wb.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:advert-media-api.wildberries.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "wildberries.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:advk.vk.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "vk.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:agency-adv.ozon.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "ozon.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:alt-r.my.com": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "organization": null,
     "queried": "my.com",
@@ -299,36 +299,36 @@
     "status": "unverified"
   },
   "domain:amc.yandex.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "yandex.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:an.mail.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "mail.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:analytics-adv.ozon.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "ozon.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:analytics-stage.wildberries.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "wildberries.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:analytics.mobile.yandex.net": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "organization": null,
     "queried": "yandex.net",
@@ -336,22 +336,22 @@
     "status": "unverified"
   },
   "domain:analytics.vk.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "vk.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:analytics.wildberries.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "wildberries.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:api-eu.carrotquest.app": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "organization": null,
     "queried": "carrotquest.app",
@@ -359,22 +359,22 @@
     "status": "unverified"
   },
   "domain:api-eu.carrotquest.io": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "carrotquest.io",
     "source": "IANA: no RDAP endpoint",
     "status": "unverified"
   },
   "domain:api-js.mindbox.ru": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "queried": "mindbox.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:api-ru.carrotquest.app": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "organization": null,
     "queried": "carrotquest.app",
@@ -540,8 +540,8 @@
     "status": "unverified"
   },
   "ip:2.153.248.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "NET_DATAHALL",
@@ -550,8 +550,8 @@
     "status": "unverified"
   },
   "ip:2.16.103.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "EU",
     "network_name_hint": "AKAMAI-PA",
@@ -560,8 +560,8 @@
     "status": "unverified"
   },
   "ip:2.16.154.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "EU",
     "network_name_hint": "AKAMAI-PA",
@@ -570,8 +570,8 @@
     "status": "unverified"
   },
   "ip:2.16.20.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "EU",
     "network_name_hint": "AKAMAI-PA",
@@ -580,8 +580,8 @@
     "status": "unverified"
   },
   "ip:2.16.53.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "EU",
     "network_name_hint": "AKAMAI-PA",
@@ -590,8 +590,8 @@
     "status": "unverified"
   },
   "ip:2.17.144.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "EU",
     "network_name_hint": "AKAMAI-PA",
@@ -600,8 +600,8 @@
     "status": "unverified"
   },
   "ip:2.17.146.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "EU",
     "network_name_hint": "AKAMAI-PA",
@@ -610,8 +610,8 @@
     "status": "unverified"
   },
   "ip:2.19.181.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "EU",
     "network_name_hint": "AKAMAI-PA",
@@ -620,8 +620,8 @@
     "status": "unverified"
   },
   "ip:2.19.204.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "EU",
     "network_name_hint": "AKAMAI-PA",
@@ -630,8 +630,8 @@
     "status": "unverified"
   },
   "ip:2.20.254.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "EU",
     "network_name_hint": "AKAMAI-PA",
@@ -640,8 +640,8 @@
     "status": "unverified"
   },
   "ip:2.22.237.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "EU",
     "network_name_hint": "AKAMAI-PA",
@@ -650,8 +650,8 @@
     "status": "unverified"
   },
   "ip:2.23.167.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "EU",
     "network_name_hint": "AKAMAI-PA",
@@ -660,8 +660,8 @@
     "status": "unverified"
   },
   "ip:2.26.10.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "AS210546-iPv4",
@@ -670,48 +670,52 @@
     "status": "unverified"
   },
   "ip:2.26.104.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "xorekcloud-msk",
     "organization": "Xorek.Cloud Moscow",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-XORA4-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.26.104.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.26.119.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "GB",
     "network_country_hint": "RU",
     "network_name_hint": "it-garage",
     "organization": "NEKOBYTE INTERNATIONAL LIMITED",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NL676-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.26.119.0/24",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:2.26.195.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "GB",
     "network_country_hint": "RU",
     "network_name_hint": "it-garage",
     "organization": "NEKOBYTE INTERNATIONAL LIMITED",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NL676-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.26.195.0/24",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:2.26.216.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "US",
     "network_country_hint": "EU",
     "network_name_hint": "ipxo",
     "organization": "Company 65e6ebdaTcsEkkHx",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PC518-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.26.216.0/24",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:2.26.8.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "AS210546-iPv4",
@@ -720,8 +724,8 @@
     "status": "unverified"
   },
   "ip:2.26.89.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "AS210546-iPv4",
@@ -730,8 +734,8 @@
     "status": "unverified"
   },
   "ip:2.27.142.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "DE",
     "network_name_hint": "interlir",
@@ -740,28 +744,30 @@
     "status": "unverified"
   },
   "ip:2.27.54.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "xorekcloud-msk",
     "organization": "Xorek.Cloud Moscow",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-XORA4-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.27.54.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.56.137.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-VEZARYS-20260925",
     "organization": "Golitsyn Valeriy Valerevich",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GVV4-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.56.137.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.56.138.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "RU-PROLINE",
@@ -770,58 +776,63 @@
     "status": "unverified"
   },
   "ip:2.56.178.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "UFO",
     "organization": "UFO Hosting LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-UHL6-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.56.178.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.56.180.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-SKYNETWORK1-20190314",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Skynetwork LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL833-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.56.180.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.56.228.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "IN",
     "network_country_hint": "IN",
     "network_name_hint": "IN-HOSTROYALE-20190315",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "HostRoyale Technologies Pvt Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-HTPL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.56.228.0/22",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:2.56.24.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-K-TELEKOM-20190313",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "K-telekom LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-KL174-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.56.24.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.56.240.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-BEGET-20190315",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Beget LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-BL131-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.56.240.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.56.242.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "RU-BAXET-20190601",
@@ -830,108 +841,118 @@
     "status": "unverified"
   },
   "ip:2.56.88.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-MCHOST1-20190313",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "McHost LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ML638-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.56.88.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.57.0.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-FIRSTDC-20230307",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Perviy TSOD LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PTL30-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.57.0.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.57.184.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-SFDATA-20190320",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Data Storage Center JSC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL137-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.57.184.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.57.37.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "GCX-NET",
     "organization": "Limited Liability Company DZHISIIKS",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-LLCD3-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.57.37.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.57.38.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "GCX-NET",
     "organization": "Limited Liability Company DZHISIIKS",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-LLCD3-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.57.38.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.57.52.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-ACTIVEDOMAINS-20190318",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Active.domains LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-AL659-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.57.52.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.57.80.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-VRN-TELECOM-20190319",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "VORONEZH TELECOM LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-VTL29-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.57.80.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.58.124.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-NDEV-20190321",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Anton Rashitovich Khalikov",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ARK8-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.58.124.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.58.212.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-COMPANY-20250108",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Company Telecom LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-CTL84-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.58.212.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.58.68.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-SELECTEL-20190321",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC Selectel",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL223-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.58.68.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.58.96.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "RU-ROCKETTELECOM-20240201",
@@ -940,68 +961,74 @@
     "status": "unverified"
   },
   "ip:2.59.160.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-FIRSTDC-20190326",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Perviy TSOD LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PTL30-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.59.160.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.59.176.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "SC",
     "network_country_hint": "RU",
     "network_name_hint": "SC-NET-20190326",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "iNet Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-IL878-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.59.176.0/22",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:2.59.213.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-GARMONIYA-20190401",
     "organization": "MB Grupp LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GL367-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.59.213.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.59.215.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-NETONE-20221013",
     "organization": "NetOne Rus JSC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NRC2-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.59.215.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.59.240.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-A-SITI-20190328",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "\"A-Siti\" Limited Liability Company",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-LLC46-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.59.240.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.59.40.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "AE",
     "network_country_hint": "AE",
     "network_name_hint": "AE-IX-20190325",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "IPX - FZCO",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-IF47-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.59.40.0/22",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:2.59.48.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_name_hint": "RIPE-NCC-MANAGED-ADDRESS-BLOCK",
     "organization": null,
@@ -1009,44 +1036,48 @@
     "status": "unverified"
   },
   "ip:2.59.76.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-IGKH-20190325",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Inna Grigorevna Khoruzhaya",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-IGK1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.59.76.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.59.80.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-MTU-20190325",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "MTS PJSC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ZM1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.59.80.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.60.0.0/14": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-RTK-20101008",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "PJSC Rostelecom",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-JR8-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.60.0.0/14",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.92.0.0/14": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-CORBINA-20100521",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "PJSC \"Vimpelcom\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-CTAM1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/2.92.0.0/14",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:23.105.224.0/19": {
     "checked_at": 1794607858,
@@ -1280,58 +1311,63 @@
     "status": "unverified"
   },
   "ip:5.1.41.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-FIRSTDC-20210728",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Perviy TSOD LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PTL30-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.1.41.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.1.47.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-SKYSYSTEMS-20210802",
     "organization": "SkySystems LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL953-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.1.47.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.1.48.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-RUSCOMP-20120425",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "\"Russian company\" LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-JSCC1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.1.48.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.100.244.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-WEST-CALL-20180611",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "OOO WestCall Ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-WL4-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.100.244.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.100.64.0/18": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-KRIVETS-20120625",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Krivets Sergey Sergeevich",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-KSS20-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.100.64.0/18",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.101.0.0/19": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_name_hint": "RIPE-NCC-MANAGED-ADDRESS-BLOCK",
     "organization": null,
@@ -1339,28 +1375,30 @@
     "status": "unverified"
   },
   "ip:5.101.128.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-UMNYESETI-20120626",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Grand Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GL125-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.101.128.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.101.152.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-BEGET-20120626",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Beget LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-BL131-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.101.152.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.101.192.0/20": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_name_hint": "RIPE-NCC-MANAGED-ADDRESS-BLOCK",
     "organization": null,
@@ -1368,48 +1406,52 @@
     "status": "unverified"
   },
   "ip:5.101.208.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-PIN-20120626",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.101.208.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.101.218.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-EDGECENTER-20120626",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.101.218.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.101.224.0/19": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-REAL-NET-20120626",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "LLC \"Real-net\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-LA745-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.101.224.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.101.32.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-PIN-20120626",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.101.32.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.101.40.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_name_hint": "RIPE-NCC-MANAGED-ADDRESS-BLOCK",
     "organization": null,
@@ -1417,134 +1459,147 @@
     "status": "unverified"
   },
   "ip:5.101.48.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-SELECTEL-20120626",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC Selectel",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL223-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.101.48.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.101.60.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-WEST-CALL-20120626",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "OOO WestCall Ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-WL4-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.101.60.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.101.64.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-PIN-20120626",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.101.64.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.101.68.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-EDGECENTER-20120626",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.101.68.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.101.70.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-EDGECENTER-20120626",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.101.70.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.101.72.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-ENTERPRISE-CLOUD-20120626",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Enterprise Cloud Ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ECL28-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.101.72.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.101.80.0/20": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-PIN-20120626",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.101.80.0/20",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.102.152.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-INSYS-20120627",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "INSYS LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-IJ1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.102.152.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.104.200.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-RAID-20120702",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC \"ER-Telecom Holding\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-RA21-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.104.200.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.104.32.0/19": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-TRINITY-20120628",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Trinity Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-TL979-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.104.32.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.11.60.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-T2TELECOM-20190227",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "M2 CONNECT LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-TTL45-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.11.60.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.11.64.0/20": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-TIS-DIALOG-20120502",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "TIS Dialog LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-TDL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.11.64.0/20",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.128.0.0/16": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-NTK-20120629",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Novotelecom Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NL9-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.128.0.0/16",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.129.0.0/17": {
     "checked_at": 1794607858,
@@ -1764,14 +1819,15 @@
     "status": "unverified"
   },
   "ip:5.16.0.0/14": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-RAID-20120427",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC \"ER-Telecom Holding\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-RA21-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.16.0.0/14",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.164.0.0/14": {
     "checked_at": 1794607858,
@@ -2488,14 +2544,15 @@
     "status": "unverified"
   },
   "ip:5.2.32.0/19": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-UGMK-TELECOM-20111201",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "UGMK-Telecom LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-UL18-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.2.32.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.200.32.0/19": {
     "checked_at": 1794607858,
@@ -2512,8 +2569,8 @@
     "status": "unverified"
   },
   "ip:5.22.153.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "SIBIR-NET",
@@ -2522,8 +2579,8 @@
     "status": "unverified"
   },
   "ip:5.22.157.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "DNS-RETAIL",
@@ -2553,18 +2610,19 @@
     "status": "unverified"
   },
   "ip:5.23.48.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-TIMEWEB2-20120507",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC \"TIMEWEB\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-TL188-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.23.48.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.23.96.0/20": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_name_hint": "RIPE-NCC-MANAGED-ADDRESS-BLOCK",
     "organization": null,
@@ -2719,58 +2777,63 @@
     "status": "unverified"
   },
   "ip:5.28.16.0/20": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-RTK-20120508",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "PJSC Rostelecom",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-JR8-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.28.16.0/20",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.3.0.0/16": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-RAID-20120427",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC \"ER-Telecom Holding\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-RA21-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.3.0.0/16",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.32.144.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-EPL-20120510",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Production co-operative Economic-legal laboratory",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PCEL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.32.144.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.35.0.0/19": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-SELECTEL-20120511",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC Selectel",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL223-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.35.0.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.35.100.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-INTERNET-HOSTING-20120511",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Internet-Hosting Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-IL221-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.35.100.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.35.102.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "IHC-NET",
@@ -2779,8 +2842,8 @@
     "status": "unverified"
   },
   "ip:5.35.112.0/20": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_name_hint": "RIPE-NCC-MANAGED-ADDRESS-BLOCK",
     "organization": null,
@@ -2788,68 +2851,74 @@
     "status": "unverified"
   },
   "ip:5.35.128.0/19": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-IRTELCOM-20120511",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Limited Liability Company Irtelcom",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-LLCI3-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.35.128.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.35.40.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-NETONE-20120511",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "NetOne Rus JSC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NRC2-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.35.40.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.35.48.0/20": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-UMNYESETI-20120511",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Grand Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GL125-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.35.48.0/20",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.35.64.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-K2INTEGRATION-20120511",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "K2 Integration JSC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-KIJ1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.35.64.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.35.72.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-K2INTEGRATION-20120511",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "K2 Integration JSC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-KIJ1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.35.72.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.35.82.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-BEGET-20120511",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Beget LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-BL131-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.35.82.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.35.84.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "RU-BEGET",
@@ -2858,8 +2927,8 @@
     "status": "unverified"
   },
   "ip:5.35.88.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "RU-BEGET",
@@ -2868,88 +2937,96 @@
     "status": "unverified"
   },
   "ip:5.35.96.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-JSCIOT-20120511",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC IOT",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-JI50-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.35.96.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.39.160.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-RAID-20120515",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC \"ER-Telecom Holding\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-RA21-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.39.160.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.42.0.0/18": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-ROSTLLC-20120516",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "ROST LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-RL569-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.42.0.0/18",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.42.112.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-JSCKOLOMENSKOE-20120516",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC \"Kolomenskoe TV\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-JT116-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.42.112.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.42.120.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-JSCKOLOMENSKOE-20120516",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC \"Kolomenskoe TV\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-JT116-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.42.120.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.42.124.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-JSCKOLOMENSKOE-20120516",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC \"Kolomenskoe TV\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-JT116-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.42.124.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.42.126.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "TW-Cloud",
     "organization": "JSC \"TIMEWEB\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-TL188-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.42.126.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.42.211.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RS-CASTLES",
     "organization": "Castles LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-CL628-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.42.211.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.42.212.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_name_hint": "RIPE-NCC-MANAGED-ADDRESS-BLOCK",
     "organization": null,
@@ -2957,18 +3034,19 @@
     "status": "unverified"
   },
   "ip:5.42.216.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "HK",
     "network_country_hint": "RU",
     "network_name_hint": "HK-NEXT-20220407",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Next Limited",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NL608-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.42.216.0/24",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:5.42.219.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "RU-TRANSASIA-20220412",
@@ -2977,8 +3055,8 @@
     "status": "unverified"
   },
   "ip:5.42.220.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "RU-TIMEWEB-20230704",
@@ -2987,458 +3065,503 @@
     "status": "unverified"
   },
   "ip:5.42.64.0/19": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-KSTV-20120516",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "CJSC Kolomna-Sviaz TV",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-JKT4-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.42.64.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.42.96.0/20": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-JSCKOLOMENSKOE-20120516",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC \"Kolomenskoe TV\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-JT116-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.42.96.0/20",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.43.128.0/19": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-FOR-20120521",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Joint stock company \"For\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-JSC13-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.43.128.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.43.240.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-TRANSTELECOM-20120522",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Joint Stock Company TransTeleCom",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-CJSC19-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.43.240.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.44.0.0/20": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-KAMENSKTEL-20120522",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Closed Joint Stock Company Radiotelephone",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-CJSC9-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.44.0.0/20",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.44.168.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-NORCOM-20120524",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Norilsk-Telecom JSC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NL23-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.44.168.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.44.40.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "AE",
     "network_name_hint": "RU-NOCRU-20120523",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "LLC \"Internet Tehnologii\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-LT104-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.44.40.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.44.43.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-SELECTEL-20120523",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC Selectel",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL223-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.44.43.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.44.45.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-SELECTEL-20120523",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC Selectel",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL223-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.44.45.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.44.48.0/20": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-RAID-20120523",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC \"ER-Telecom Holding\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-RA21-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.44.48.0/20",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.193.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.193.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.194.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.194.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.196.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.196.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.198.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.198.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.199.128/25": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.199.128/25",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.199.40/29": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.199.40/29",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.199.48/28": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.199.48/28",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.199.64/26": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.199.64/26",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.200.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.200.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.202.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "YANDEX-5-45-202-0",
     "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.202.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.204.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.204.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.208.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.208.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.216.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.216.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.220.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.220.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.222.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.222.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.224.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.224.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.228.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.228.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.230.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.230.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.232.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.232.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.240.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.240.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.244.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "YANDEX-5-45-244-0",
     "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.244.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.246.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.246.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.248.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.248.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.250.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.250.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.252.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-YANDEX-20120525",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.252.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.45.80.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "NETROCKS-RU",
     "organization": "Netrocks LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NL706-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.45.80.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.53.120.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-SELECTEL-20120529",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC Selectel",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL223-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.53.120.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.53.16.0/20": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-METROSET-20120529",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Metroset Ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ML141-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.53.16.0/20",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.56.136.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-REAL-NET-20120531",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "LLC \"Real-net\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-LA745-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.56.136.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.57.209.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "CZ",
     "network_country_hint": "CO",
     "network_name_hint": "CZ-INFTELE-20210730",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Infinity Telecom, s.r.o.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ITS59-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.57.209.0/24",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:5.57.212.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-IUCH-20210730",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Iuliia Cherepanina",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-IC116-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.57.212.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.57.216.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-REAL-NET-20120605",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "LLC \"Real-net\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-LA745-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.57.216.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.57.232.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-TTC-NET-20120605",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "OOO TRANSTELECOM",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-OT5-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.57.232.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.59.100.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "Regionalnye-Telesystemy",
     "organization": "Regionalnye Telesystemy Ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-REGT1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.59.100.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.59.104.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "TELE-MONTAZH",
     "organization": "Tele Montazh Ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-TELE20-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.59.104.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.59.120.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "OOO-MEGACOM",
@@ -3447,8 +3570,8 @@
     "status": "unverified"
   },
   "ip:5.59.128.0/19": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "Timer-Ltd",
@@ -3457,68 +3580,74 @@
     "status": "unverified"
   },
   "ip:5.59.176.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "Mediasvyaz",
     "organization": "Mediasvyaz Ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-MEDI6-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.59.176.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.59.184.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "KINGISEPPONLINE",
     "organization": "KINGISEPP-ONLINE Ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-KING1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.59.184.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.59.222.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "Sharenkov",
     "organization": "IP Alexey Sharenkov",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SHAR8-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.59.222.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.59.229.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "adl-net",
     "organization": "Andial Ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ANDI4-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.59.229.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.59.24.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "OOO05COM",
     "organization": "OOO 05COM",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-FIVE2-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.59.24.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.59.244.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-KVIKTEL-20221221",
     "organization": "KVIKTEL LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-KL294-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.59.244.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.59.32.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "SkyNetwork",
@@ -3527,28 +3656,30 @@
     "status": "unverified"
   },
   "ip:5.59.44.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "ENIGMA-TELECOM",
     "organization": "Enigma Telecom Ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ETL20-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.59.44.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.59.48.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "IP-SHAMILOV-TIMUR",
     "organization": "Shamilov Timur Gazimagomedovich",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SHAM1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.59.48.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.59.52.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "SkyNetwork",
@@ -3557,8 +3688,8 @@
     "status": "unverified"
   },
   "ip:5.59.98.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "SkyNetwork",
@@ -3567,18 +3698,19 @@
     "status": "unverified"
   },
   "ip:5.61.16.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-ODNOKLASSNIKI-20120607",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "LLC VK",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-OL67-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.61.16.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.61.232.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "VK-FRONT",
@@ -3587,8 +3719,8 @@
     "status": "unverified"
   },
   "ip:5.61.236.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "VK-FRONT",
@@ -3597,8 +3729,8 @@
     "status": "unverified"
   },
   "ip:5.61.238.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "VK-FRONT",
@@ -3607,8 +3739,8 @@
     "status": "unverified"
   },
   "ip:5.61.239.0/27": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "M100-COLO",
@@ -3617,188 +3749,206 @@
     "status": "unverified"
   },
   "ip:5.61.8.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-RAID-20120607",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC \"ER-Telecom Holding\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-RA21-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.61.8.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.63.128.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "AE",
     "network_country_hint": "RU",
     "network_name_hint": "AE-INNOVA-SOL-20120612",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Innova Solutions FZ LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ISFL4-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.63.128.0/21",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:5.63.152.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-REGRU-20120612",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "\"Domain names registrar REG.RU\", Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NRRL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.63.152.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.77.0.0/19": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-RAID-20120612",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC \"ER-Telecom Holding\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-RA21-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.77.0.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.79.128.0/17": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-INTERSVYAZ-20120613",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Intersvyaz-2 JSC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-IJ7-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.79.128.0/17",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.16.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-PIN-20120425",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.16.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.160.0/20": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-MATRIX-TELECOM-20120426",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "MATRIX TELECOM LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-MTL64-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.160.0/20",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.176.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-MEGAFON-20120426",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "PJSC MegaFon",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-OM1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.176.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.192.0/19": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-TRANSTELECOM-20120426",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Joint Stock Company TransTeleCom",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-CJSC19-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.192.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.224.0/20": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-MTU-20120426",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "MTS PJSC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ZM1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.224.0/20",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.28.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-SELECTEL-20120425",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC Selectel",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL223-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.28.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.36.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-PAKT-20120425",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "P.A.K.T LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PL73-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.36.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.4.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "PIN-DATACENTER-NET",
     "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.4.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.42.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-EDGECENTER-20120425",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.42.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.44.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-PIN-20120425",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.44.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.48.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "PINDC-public-vlans",
     "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.48.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.56.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "PIN-NETWORK",
     "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.56.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.58.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-PIN-20120425",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.58.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.60.0/23": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
+    "audit_version": 4,
+    "checked_at": 1794609223,
     "country": null,
     "network_country_hint": "RU",
     "network_name_hint": "proxy-six-network",
@@ -3807,74 +3957,81 @@
     "status": "unverified"
   },
   "ip:5.8.62.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "Biletik-Onlain-Network",
     "organization": "Biletik-Onlain LTD",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-BOL8-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.62.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.64.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-PIN-20120425",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.64.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.69.0/24": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-EDGECENTER-20120425",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.69.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.72.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-SELECTEL-20120425",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "JSC Selectel",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL223-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.72.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.8.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "RU-PIN-20120425",
-    "organization": "ORG-NCC1-RIPE",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.8.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.80.0/21": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "RU",
     "network_country_hint": "RU",
     "network_name_hint": "UMNYESETI",
     "organization": "Grand Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GL125-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.80.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.8.88.0/22": {
-    "audit_version": 3,
-    "checked_at": 1794608628,
-    "country": null,
+    "audit_version": 4,
+    "checked_at": 1794609223,
+    "country": "EE",
     "network_country_hint": "RU",
     "network_name_hint": "PINVDS",
     "organization": "PINVDS OU",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PO71-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.8.88.0/22",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:8.209.0.0/19": {
     "checked_at": 1794607858,
