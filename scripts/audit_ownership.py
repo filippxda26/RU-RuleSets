@@ -16,7 +16,8 @@ from urllib.request import Request, urlopen
 ZONE_EXCEPTIONS = {"ru", "su", "xn--p1ai", ".ru", ".su", ".xn--p1ai"}
 WHOIS_TLDS = {"ru", "su", "xn--p1ai"}
 RU_COUNTRIES = {"RU", "RUSSIAN FEDERATION", "RUSSIA"}
-USER_AGENT = "RU-RuleSets ownership-audit/1.0 (registry verification)"
+USER_AGENT = "RU-RuleSets ownership-audit/1.1 (registry verification)"
+AUDIT_SCHEMA_VERSION = 3
 
 
 def load(path, default=None):
@@ -47,36 +48,47 @@ def rdap_dns_services():
 
 
 def entity_owner(data):
-    """A registrar, abuse contact, network's geography are never proof of owner."""
+    """Read only registrant/holder entities, never registrar or network geography.
+
+    A RIPE ORGANISATION can have an ORG-* handle and a jCard "fn" instead
+    of "org". A countryless name is useful evidence but cannot establish
+    whether an entity belongs to a Russian or foreign jurisdiction.
+    """
+    fallback = None
     for entity in data.get("entities", []):
-        if not {"registrant", "holder"}.intersection(entity.get("roles", [])):
+        if not isinstance(entity, dict) or not {"registrant", "holder"}.intersection(entity.get("roles", [])):
             continue
-        vcard = entity.get("vcardArray", [None, []])
-        properties = vcard[1] if isinstance(vcard, list) and len(vcard) > 1 else []
-        organization = None
-        country = None
-        for item in properties:
+        card = entity.get("vcardArray")
+        props = card[1] if isinstance(card, list) and len(card) > 1 and isinstance(card[1], list) else []
+        org = fn = country = None
+        for item in props:
             if not isinstance(item, list) or len(item) < 4:
                 continue
-            if item[0] == "org" and isinstance(item[3], str):
-                organization = item[3].strip()
-            if item[0] == "adr":
-                value = item[3]
-                if isinstance(value, list) and value:
+            key, params, _, value = item[:4]
+            if key == "org" and isinstance(value, str):
+                org = value.strip()
+            elif key == "fn" and isinstance(value, str):
+                fn = value.strip()
+            elif key == "adr":
+                if isinstance(params, dict) and params.get("cc"):
+                    country = str(params["cc"]).strip().upper()
+                elif isinstance(value, list) and value and value[-1]:
                     country = str(value[-1]).strip().upper()
-                if isinstance(item[1], dict) and item[1].get("cc"):
-                    country = str(item[1]["cc"]).strip().upper()
-        if organization and country and (country in RU_COUNTRIES or (re.fullmatch(r"[A-Z]{2}", country) and country not in {"ZZ", "EU", "UN", "AP"})):
-            return organization, country
-    return None, None
+        if not org and str(entity.get("handle", "")).upper().startswith("ORG-"):
+            org = fn
+        if not org:
+            continue
+        if country in RU_COUNTRIES or (country and re.fullmatch(r"[A-Z]{2}", country) and country not in {"ZZ", "EU", "UN", "AP"}):
+            return org, country
+        fallback = (org, None)
+    return fallback or (None, None)
 
 
 def classify_rdap(data, source):
     owner, country = entity_owner(data)
-    state = "unverified"
-    if owner and country:
-        state = "russian" if country in RU_COUNTRIES else "foreign"
-    return {"status": state, "organization": owner, "country": country, "source": source}
+    status = "russian" if country in RU_COUNTRIES else "foreign" if country else "unverified"
+    return {"status": status, "organization": owner, "country": country, "source": source}
+
 
 
 def query_whois(domain):
@@ -93,27 +105,42 @@ def query_whois(domain):
     return data.decode("utf-8", "replace")
 
 
-def query_domain(name, services):
+def query_domain(name, services, memo=None):
     ascii_name = name.strip(".").encode("idna").decode("ascii").lower()
     pieces = ascii_name.split(".")
-    tld = pieces[-1]
     if len(pieces) < 2:
         return {"status": "unverified", "source": "TLD (preserved)"}
-    # RDAP/WHOIS do not usually resolve subdomains. Walk toward their registered parent.
-    for size in range(len(pieces), 1, -1):
+    tld = pieces[-1]
+    memo = {} if memo is None else memo
+    # Prefer shorter registered parents to avoid querying every subdomain.
+    # Multi-level public suffixes will return 404 and we continue with more labels.
+    for size in range(2, len(pieces) + 1):
         candidate = ".".join(pieces[-size:])
+        if candidate in memo:
+            cached = memo[candidate]
+            if cached is None:
+                continue
+            return dict(cached)
         if tld in WHOIS_TLDS:
             try:
                 raw = query_whois(candidate)
             except (OSError, UnicodeError) as exc:
-                return {"status": "unverified", "source": "whois.tcinet.ru", "error": str(exc)[:160]}
-            match = re.search(r"^org:[ \t]*(\S[^\n]*)$", raw, re.M | re.I)
-            if match:
-                # WHOIS provides an organisation but not its legal country.
-                return {"status": "unverified", "organization": match[1].strip(), "source": "whois.tcinet.ru", "queried": candidate}
-            if re.search(r"^(person|registrar):", raw, re.M | re.I):
-                return {"status": "unverified", "source": "whois.tcinet.ru", "queried": candidate}
-            continue
+                result = {"status": "unverified", "source": "whois.tcinet.ru", "error": str(exc)[:160]}
+                memo[candidate] = result
+                return result
+            # WHOIS can contain a separate organisation belonging to the REGISTRAR.
+            # Only fields in the domain object (before the first 'source:') count.
+            first = re.split(r"(?im)^source:[ \t]*TCI[ \t]*\r?$", raw, maxsplit=1)[0]
+            match_domain = re.search(r"(?im)^domain:[ \t]*(\S+)[ \t]*\r?$", first)
+            if not match_domain or match_domain[1].lower().rstrip(".") != candidate:
+                memo[candidate] = None
+                continue
+            match_org = re.search(r"(?im)^org:[ \t]*(.*?)\r?$", first)
+            result = {"status": "unverified", "source": "whois.tcinet.ru", "queried": candidate}
+            if match_org and match_org[1].strip():
+                result["organization"] = match_org[1].strip()
+            memo[candidate] = result
+            return dict(result)
         base = services.get(tld)
         if not base:
             return {"status": "unverified", "source": "IANA: no RDAP endpoint", "queried": candidate}
@@ -122,25 +149,47 @@ def query_domain(name, services):
             data = fetch_json(url)
         except HTTPError as exc:
             if exc.code in (400, 404):
+                memo[candidate] = None
                 continue
-            return {"status": "unverified", "source": url, "error": "HTTP " + str(exc.code)}
+            result = {"status": "unverified", "source": url, "error": "HTTP " + str(exc.code)}
+            memo[candidate] = result
+            return dict(result)
         except (OSError, ValueError, URLError) as exc:
-            return {"status": "unverified", "source": url, "error": str(exc)[:160]}
+            result = {"status": "unverified", "source": url, "error": str(exc)[:160]}
+            memo[candidate] = result
+            return dict(result)
         result = classify_rdap(data, url)
         result["queried"] = candidate
-        return result
+        memo[candidate] = result
+        return dict(result)
     return {"status": "unverified", "source": "no domain registration found"}
 
 
 def query_network(cidr):
-    # RIPE's RDAP service redirects non-RIPE resources to the authoritative RIR.
+    # RIPE redirects to the authoritative RIR for resources outside RIPE.
     url = "https://rdap.db.ripe.net/ip/" + quote(cidr, safe="/:")
     try:
         data = fetch_json(url)
         result = classify_rdap(data, url)
+        # Country of the IP network is not the registered organisation country.
+        if data.get("country"):
+            result["network_country_hint"] = data["country"]
+        if data.get("name"):
+            result["network_name_hint"] = data["name"]
+        start, end = data.get("startAddress"), data.get("endAddress")
+        if start and end:
+            requested = ipaddress.ip_network(cidr)
+            first, last = ipaddress.ip_address(start), ipaddress.ip_address(end)
+            if first.version != requested.version or not (first <= requested.network_address and last >= requested.broadcast_address):
+                result["status"] = "unverified"
+                result["reason"] = "RDAP registration does not cover entire CIDR"
+        else:
+            result["status"] = "unverified"
+            result["reason"] = "RDAP registration range missing"
     except (OSError, ValueError, URLError) as exc:
         result = {"status": "unverified", "source": url, "error": str(exc)[:160]}
     return result
+
 
 
 def rules(items):
@@ -160,33 +209,38 @@ def run(root, max_domains, max_ips, delay, offline=False):
 
     def status_for(key):
         proof = manual.get(key)
-        if isinstance(proof, dict) and proof.get("status") in {"foreign", "russian"} and proof.get("organization") and proof.get("country") and str(proof.get("source", "")).startswith("https://"):
-            return proof["status"]
-        return cache.get(key, {}).get("status", "unverified")
+        if isinstance(proof, dict):
+            country = str(proof.get("country", "")).strip().upper()
+            expected = "russian" if country in RU_COUNTRIES else "foreign" if re.fullmatch(r"[A-Z]{2}", country) and country not in {"ZZ", "EU", "UN", "AP"} else None
+            if (expected and proof.get("status") == expected and
+                    isinstance(proof.get("organization"), str) and proof["organization"].strip() and
+                    isinstance(proof.get("source"), str) and proof["source"].startswith("https://")):
+                return expected
+        entry = cache.get(key, {})
+        if entry.get("audit_version") == AUDIT_SCHEMA_VERSION:
+            return entry.get("status", "unverified")
+        return "unverified"
 
     services = {}
     if not offline and max_domains > 0:
         try:
             services = rdap_dns_services()
         except (OSError, ValueError, URLError) as exc:
-            print(f"IANA bootstrap unavailable: {exc}")
-            max_domains = 0
+            print(f"IANA bootstrap unavailable: {exc}; .ru/.su/.рф WHOIS remains enabled")
 
     def needs_check(key):
         entry = cache.get(key)
-        if not entry:
-            return True
-        # A prior parser mistakenly swallowed the next line after an empty "org:".
-        if entry.get("source") == "whois.tcinet.ru" and entry.get("organization") == "taxpayer-id:":
-            return True
-        return now - entry.get("checked_at", 0) > 45 * 86400
-
+        return (not entry or bool(entry.get("error")) or
+                entry.get("audit_version") != AUDIT_SCHEMA_VERSION or
+                now - entry.get("checked_at", 0) > 45 * 86400)
     count_domain = count_ip = 0
+    domain_memo = {}
     for kind, domain in audited:
         key = kind + ":" + domain
         if not offline and count_domain < max_domains and needs_check(key):
-            cache[key] = query_domain(domain, services)
+            cache[key] = query_domain(domain, services, domain_memo)
             cache[key]["checked_at"] = now
+            cache[key]["audit_version"] = AUDIT_SCHEMA_VERSION
             count_domain += 1
             if delay:
                 time.sleep(delay)
@@ -195,6 +249,7 @@ def run(root, max_domains, max_ips, delay, offline=False):
         if not offline and count_ip < max_ips and needs_check(key):
             cache[key] = query_network(cidr)
             cache[key]["checked_at"] = now
+            cache[key]["audit_version"] = AUDIT_SCHEMA_VERSION
             count_ip += 1
             if delay:
                 time.sleep(delay)
