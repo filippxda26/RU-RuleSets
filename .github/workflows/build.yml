@@ -35,7 +35,6 @@ jobs:
           python3 -m unittest discover -s scripts -p 'test_*.py' -v
 
       - name: Refresh Russia GeoIP from SUIP
-        if: ${{ github.event_name != 'push' || contains(github.event.head_commit.modified, '.github/workflows/build.yml') }}
         shell: bash
         run: |
           set -euo pipefail
