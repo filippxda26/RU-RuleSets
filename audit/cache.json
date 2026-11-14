@@ -382,21 +382,24 @@
     "status": "unverified"
   },
   "domain:api-ru.carrotquest.io": {
-    "checked_at": 1794607858,
-    "queried": "api-ru.carrotquest.io",
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "queried": "carrotquest.io",
     "source": "IANA: no RDAP endpoint",
     "status": "unverified"
   },
   "domain:api-ru.mindbox.cloud": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
     "organization": null,
-    "queried": "api-ru.mindbox.cloud",
-    "source": "https://rdap.registry.cloud/rdap/domain/api-ru.mindbox.cloud",
+    "queried": "mindbox.cloud",
+    "source": "https://rdap.registry.cloud/rdap/domain/mindbox.cloud",
     "status": "unverified"
   },
   "domain:api-secure.carrotquest.app": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
     "organization": null,
     "queried": "carrotquest.app",
@@ -404,7 +407,8 @@
     "status": "unverified"
   },
   "domain:api-secure.carrottrack.app": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
     "organization": null,
     "queried": "carrottrack.app",
@@ -412,13 +416,15 @@
     "status": "unverified"
   },
   "domain:api-staging.mindbox.ru": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "queried": "mindbox.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:api.carrotquest.app": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
     "organization": null,
     "queried": "carrotquest.app",
@@ -426,13 +432,15 @@
     "status": "unverified"
   },
   "domain:api.carrotquest.io": {
-    "checked_at": 1794607858,
-    "queried": "api.carrotquest.io",
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "queried": "carrotquest.io",
     "source": "IANA: no RDAP endpoint",
     "status": "unverified"
   },
   "domain:api.carrottrack.app": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
     "organization": null,
     "queried": "carrottrack.app",
@@ -440,7 +448,8 @@
     "status": "unverified"
   },
   "domain:api.dashly.app": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
     "organization": null,
     "queried": "dashly.app",
@@ -448,96 +457,418 @@
     "status": "unverified"
   },
   "domain:api.dashlytrack.app": {
-    "checked_at": 1794607858,
-    "error": "HTTP 429",
-    "source": "https://pubapi.registry.google/rdap/domain/api.dashlytrack.app",
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "dashlytrack.app",
+    "source": "https://pubapi.registry.google/rdap/domain/dashlytrack.app",
     "status": "unverified"
   },
   "domain:api.mindbox.cloud": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
     "organization": null,
-    "queried": "api.mindbox.cloud",
-    "source": "https://rdap.registry.cloud/rdap/domain/api.mindbox.cloud",
+    "queried": "mindbox.cloud",
+    "source": "https://rdap.registry.cloud/rdap/domain/mindbox.cloud",
     "status": "unverified"
   },
   "domain:api.mindbox.ru": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "queried": "mindbox.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:arenda.yandex.ru": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "queried": "yandex.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:b2.mail.ru": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "queried": "mail.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:beginners-adv.ozon.ru": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "queried": "ozon.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:bilet.nspk.ru": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "queried": "nspk.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
   "domain:bs.mail.ru": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "queried": "mail.ru",
     "source": "whois.tcinet.ru",
     "status": "unverified"
   },
-  "ip:13.143.137.0/24": {
-    "checked_at": 1794607858,
+  "domain:clck.yandex.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
     "organization": null,
+    "queried": "yandex.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/yandex.com",
+    "status": "unverified"
+  },
+  "domain:clck.yandex.net": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "yandex.net",
+    "source": "https://rdap.verisign.com/net/v1/domain/yandex.net",
+    "status": "unverified"
+  },
+  "domain:clck.yango.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "yango.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/yango.com",
+    "status": "unverified"
+  },
+  "domain:click.rustore.ru": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "queried": "rustore.ru",
+    "source": "whois.tcinet.ru",
+    "status": "unverified"
+  },
+  "domain:crl.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dc1-cert.ksn.kaspersky-labs.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky-labs.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky-labs.com",
+    "status": "unverified"
+  },
+  "domain:dc1-file.ksn.kaspersky-labs.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky-labs.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky-labs.com",
+    "status": "unverified"
+  },
+  "domain:dc1-pp.ksn.kaspersky-labs.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky-labs.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky-labs.com",
+    "status": "unverified"
+  },
+  "domain:dc1-st.ksn.kaspersky-labs.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky-labs.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky-labs.com",
+    "status": "unverified"
+  },
+  "domain:dc1.ksn.kaspersky-labs.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky-labs.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky-labs.com",
+    "status": "unverified"
+  },
+  "domain:dnl-00.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dnl-01.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dnl-02.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dnl-03.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dnl-04.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dnl-05.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dnl-06.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dnl-07.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dnl-08.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dnl-09.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dnl-10.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dnl-11.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dnl-12.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dnl-13.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dnl-14.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dnl-15.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dnl-16.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dnl-17.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dnl-18.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:dnl-19.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:edge.geo.kaspersky.com": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "organization": null,
+    "queried": "kaspersky.com",
+    "source": "https://rdap.verisign.com/com/v1/domain/kaspersky.com",
+    "status": "unverified"
+  },
+  "domain:edu.tinkoff.ru": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "queried": "tinkoff.ru",
+    "source": "whois.tcinet.ru",
+    "status": "unverified"
+  },
+  "domain:education.tbank.ru": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "queried": "tbank.ru",
+    "source": "whois.tcinet.ru",
+    "status": "unverified"
+  },
+  "ip:13.143.137.0/24": {
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": null,
+    "network_country_hint": "RU",
+    "network_name_hint": "AS210546-iPv4",
+    "organization": "SERV.HOST GROUP LTD",
     "source": "https://rdap.db.ripe.net/ip/13.143.137.0/24",
     "status": "unverified"
   },
   "ip:13.143.181.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
-    "organization": null,
+    "network_country_hint": "RU",
+    "network_name_hint": "AS210546-iPv4",
+    "organization": "SERV.HOST GROUP LTD",
     "source": "https://rdap.db.ripe.net/ip/13.143.181.0/24",
     "status": "unverified"
   },
   "ip:13.143.184.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
-    "organization": null,
+    "network_country_hint": "RU",
+    "network_name_hint": "AS210546-iPv4",
+    "organization": "SERV.HOST GROUP LTD",
     "source": "https://rdap.db.ripe.net/ip/13.143.184.0/24",
     "status": "unverified"
   },
   "ip:13.143.206.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "Rawi-Network",
+    "organization": "Moskalev Georgiy",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-MG419-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/13.143.206.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:13.143.243.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "Globaltech",
+    "organization": "New Hosting Technologies LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NHTL5-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/13.143.243.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:13.143.244.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "Globaltech",
+    "organization": "New Hosting Technologies LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NHTL5-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/13.143.244.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:2.153.248.0/24": {
     "audit_version": 4,
@@ -1080,235 +1411,346 @@
     "status": "russian"
   },
   "ip:23.105.224.0/19": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SKYMEDIA-20130724",
+    "organization": "EDINAYA SET LIMITED LIABILITY COMPANY",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL92-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/23.105.224.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:23.109.121.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_country_hint": "SG",
+    "network_name_hint": "SERVERS-COM-SIN2",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/23.109.121.0/24",
     "status": "unverified"
   },
   "ip:23.109.122.0/23": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_country_hint": "SG",
+    "network_name_hint": "SERVERS-COM-SIN2",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/23.109.122.0/23",
     "status": "unverified"
   },
   "ip:23.109.125.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_country_hint": "US",
+    "network_name_hint": "SERVERS-COM",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/23.109.125.0/24",
     "status": "unverified"
   },
   "ip:23.109.244.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "NL",
+    "network_country_hint": "NL",
+    "network_name_hint": "NL-SERVERS-20130724",
+    "organization": "Servers.com B.V.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SB387-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/23.109.244.0/23",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:23.111.192.0/19": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SKYMEDIA-20130724",
+    "organization": "EDINAYA SET LIMITED LIABILITY COMPANY",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL92-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/23.111.192.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:23.111.32.0/19": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SKYMEDIA-20130724",
+    "organization": "EDINAYA SET LIMITED LIABILITY COMPANY",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL92-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/23.111.32.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:23.111.96.0/19": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SKYMEDIA-20130724",
+    "organization": "EDINAYA SET LIMITED LIABILITY COMPANY",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL92-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/23.111.96.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:23.196.236.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_name_hint": "AKAMAI",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/23.196.236.0/24",
     "status": "unverified"
   },
   "ip:23.197.74.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_name_hint": "AKAMAI",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/23.197.74.0/24",
     "status": "unverified"
   },
   "ip:23.247.129.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_name_hint": "YISU-CLOUD-LTD",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/23.247.129.0/24",
     "status": "unverified"
   },
   "ip:23.247.131.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_name_hint": "YISU-CLOUD-LTD",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/23.247.131.0/24",
     "status": "unverified"
   },
   "ip:23.35.104.0/23": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_name_hint": "AKAMAI",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/23.35.104.0/23",
     "status": "unverified"
   },
   "ip:23.35.106.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_name_hint": "AKAMAI",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/23.35.106.0/24",
     "status": "unverified"
   },
   "ip:23.35.107.0/25": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_name_hint": "AKAMAI",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/23.35.107.0/25",
     "status": "unverified"
   },
   "ip:23.75.20.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_name_hint": "AKAMAI",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/23.75.20.0/24",
     "status": "unverified"
   },
   "ip:23.90.128.0/20": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "US",
+    "network_country_hint": "GB",
+    "network_name_hint": "US-ZENLAYER-20130816",
+    "organization": "Zenlayer Inc",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ZI19-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/23.90.128.0/20",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:31.10.0.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-RAID-20110414",
+    "organization": "JSC \"ER-Telecom Holding\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-RA21-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/31.10.0.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:31.10.2.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-RAID-20110414",
+    "organization": "JSC \"ER-Telecom Holding\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-RA21-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/31.10.2.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:31.10.4.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-RAID-20110414",
+    "organization": "JSC \"ER-Telecom Holding\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-RA21-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/31.10.4.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:31.10.6.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-O2CLOUD-20110414",
+    "organization": "O2 Cloud LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-OCL29-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/31.10.6.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:31.10.64.0/18": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "ru",
+    "network_name_hint": "RU-AVIEL-20110414",
+    "organization": "JSC \"AVIEL\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-CJC5-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/31.10.64.0/18",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:31.10.8.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-RACETEL-20110414",
+    "organization": "JSC RACE TELECOM",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-RA20-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/31.10.8.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:31.12.75.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-IPMAGNAT-20230307",
+    "organization": "Mikhail Tonkonog",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-MT199-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/31.12.75.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:31.12.92.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "CY",
+    "network_country_hint": "CY",
+    "network_name_hint": "CY-LVNET-20190311",
+    "organization": "LVNET LTD",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-LL370-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/31.12.92.0/22",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:31.13.128.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-ITPARK-20110418",
+    "organization": "Autonomous public institution High technology park IT-park",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-APIH1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/31.13.128.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:31.13.144.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-BEE3G-20110419",
+    "organization": "PJSC \"Vimpelcom\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-JA8-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/31.13.144.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:31.13.16.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-RAID-20110418",
+    "organization": "JSC \"ER-Telecom Holding\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-RA21-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/31.13.16.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:31.13.32.0/19": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-COMCOR-20110418",
+    "organization": "JSC Comcor",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-CA35-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/31.13.32.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:31.3.16.0/20": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_name_hint": "RIPE-NCC-MANAGED-ADDRESS-BLOCK",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/31.3.16.0/20",
     "status": "unverified"
   },
   "ip:31.6.96.0/19": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-TRINITY-20110411",
+    "organization": "Trinity Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-TL979-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/31.6.96.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:31.7.224.0/20": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-UNITLINE-20110414",
+    "organization": "OOO \"MediaSeti\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-CCM2-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/31.7.224.0/20",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:31.8.0.0/16": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-BASHTEL-20110412",
+    "organization": "PJSC \"Bashinformsvyaz\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-BC2-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/31.8.0.0/16",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.1.41.0/24": {
     "audit_version": 4,
@@ -1602,218 +2044,333 @@
     "status": "russian"
   },
   "ip:5.129.0.0/17": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-NTK-20120629",
+    "organization": "Novotelecom Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NL9-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.129.0.0/17",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.129.128.0/18": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-NTK-20120629",
+    "organization": "Novotelecom Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NL9-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.129.128.0/18",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.129.192.0/20": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-NTK-20120629",
+    "organization": "Novotelecom Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NL9-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.129.192.0/20",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.129.211.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "TW-Cloud",
+    "organization": "JSC \"TIMEWEB\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-TL188-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.129.211.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.129.215.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "TW-Cloud",
+    "organization": "JSC \"TIMEWEB\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-TL188-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.129.215.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.129.220.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-NTK-20120629",
+    "organization": "Novotelecom Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NL9-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.129.220.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.129.240.0/20": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-NTK-20120629",
+    "organization": "Novotelecom Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NL9-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.129.240.0/20",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.130.0.0/15": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-NTK-20120629",
+    "organization": "Novotelecom Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NL9-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.130.0.0/15",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.132.139.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-INTERNEX-GLOBAL-CLOUD",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.132.139.0/24",
     "status": "unverified"
   },
   "ip:5.132.140.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-INTERNEX-GLOBAL-CLOUD",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.132.140.0/24",
     "status": "unverified"
   },
   "ip:5.133.109.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-NDBANK-20231110",
+    "organization": "NDBank JSC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NJ97-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.133.109.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.133.111.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
-    "organization": null,
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-CONNECTING-20190124",
+    "organization": "Connecting LLC",
     "source": "https://rdap.db.ripe.net/ip/5.133.111.0/24",
     "status": "unverified"
   },
   "ip:5.133.76.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-POSTLTD-20181109",
+    "organization": "OOO \"Post ltd\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-OL3-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.133.76.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.134.216.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-TRUNKMOBILE-20120711",
+    "organization": "TrunkMobile JSC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-TJ113-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.134.216.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.135.69.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "FR",
+    "network_country_hint": "FR",
+    "network_name_hint": "FR-OVH-20120706",
+    "organization": "OVH SAS",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-OS3-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.135.69.0/24",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:5.136.0.0/13": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-RTK-20120703",
+    "organization": "PJSC Rostelecom",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-JR8-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.136.0.0/13",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.144.180.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_country_hint": "DE",
+    "network_name_hint": "InterLIR",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.144.180.0/24",
     "status": "unverified"
   },
   "ip:5.144.64.0/20": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-MTU-20120711",
+    "organization": "MTS PJSC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ZM1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.144.64.0/20",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.144.96.0/19": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-MTU-20120711",
+    "organization": "MTS PJSC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ZM1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.144.96.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.145.160.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SMOLTELECOM-20120713",
+    "organization": "OOO Smoltelecom",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL154-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.145.160.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.145.192.0/18": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SMOLTELECOM-20120713",
+    "organization": "OOO Smoltelecom",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL154-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.145.192.0/18",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.149.144.0/20": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_name_hint": "RIPE-NCC-MANAGED-ADDRESS-BLOCK",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.149.144.0/20",
     "status": "unverified"
   },
   "ip:5.149.200.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SV-EN-20120717",
+    "organization": "Svyaz-Energo Ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL255-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.149.200.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.149.208.0/20": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-LANCOM-20120717",
+    "organization": "Lancom Ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-LL42-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.149.208.0/20",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.153.176.0/20": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-TIMER-20120720",
+    "organization": "Timer, LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-TL491-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.153.176.0/20",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.157.32.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "SC",
+    "network_country_hint": "SC",
+    "network_name_hint": "SC-ANGELNET-20120724",
+    "organization": "Angelnet Limited",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-AL993-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.157.32.0/23",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:5.157.35.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_country_hint": "RU",
+    "network_name_hint": "Russia",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.157.35.0/24",
     "status": "unverified"
   },
   "ip:5.158.232.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-RTK-20120727",
+    "organization": "PJSC Rostelecom",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-JR8-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.158.232.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.158.96.0/19": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-PRIDE-NET-20120726",
+    "organization": "Pride LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PLC1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.158.96.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.159.112.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-YARNET-20120727",
+    "organization": "Yarnet Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YL6-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.159.112.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.159.96.0/20": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_name_hint": "RIPE-NCC-MANAGED-ADDRESS-BLOCK",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.159.96.0/20",
     "status": "unverified"
@@ -1830,718 +2387,1104 @@
     "status": "russian"
   },
   "ip:5.164.0.0/14": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-RAID-20120725",
+    "organization": "JSC \"ER-Telecom Holding\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-RA21-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.164.0.0/14",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.172.0.0/19": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-INSYS-20120730",
+    "organization": "INSYS LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-IJ1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.172.0.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.172.178.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-NUBES-20210730",
+    "organization": "NUBES LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NL466-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.172.178.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.175.134.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "NyaInfra",
+    "organization": "NyaNet",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NA1663-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.175.134.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.175.247.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "FlareSU-RU",
+    "organization": "FlareSU",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-FA1377-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.175.247.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.175.88.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-KGTS-20120802",
+    "organization": "JSC Kostroma Municipal Telephone Network",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-OKMT1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.175.88.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.175.96.0/19": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-RTK-20120802",
+    "organization": "PJSC Rostelecom",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-JR8-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.175.96.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.178.24.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-TRANSTELECOM-20120803",
+    "organization": "Joint Stock Company TransTeleCom",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-CJSC19-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.178.24.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.178.3.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "GE",
+    "network_country_hint": "RU",
+    "network_name_hint": "VDSKA-NET",
+    "organization": "Individual Entrepreneur Anton Levin",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-IEAL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.178.3.0/24",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:5.178.80.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SELECTEL-20120807",
+    "organization": "JSC Selectel",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL223-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.178.80.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.180.101.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-DATALINE-20190329",
+    "organization": "Data Storage Center JSC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-DL76-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.180.101.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.180.136.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "VG",
+    "network_country_hint": "VG",
+    "network_name_hint": "VG-ANDWASE-20190329",
+    "organization": "Andwase Limited",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-AL1047-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.180.136.0/22",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:5.180.17.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SKYSYSTEMS-20240112",
+    "organization": "SkySystems LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL953-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.180.17.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.180.174.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-IT-BASIS-20190329",
+    "organization": "LLC IT BASIS",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-LIB5-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.180.174.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.180.18.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "AE",
+    "network_country_hint": "RU",
+    "network_name_hint": "AE-IX-20190328",
+    "organization": "IPX - FZCO",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-IF47-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.180.18.0/23",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:5.180.240.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-TIMER-20190401",
+    "organization": "Timer, LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-TL491-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.180.240.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.180.92.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-CMI-20190329",
+    "organization": "China Mobile International (Russia), LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-CMIL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.180.92.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.180.99.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_country_hint": "RU",
+    "network_name_hint": "Delta",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.180.99.0/24",
     "status": "unverified"
   },
   "ip:5.181.108.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-BEGET-20190402",
+    "organization": "Beget LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-BL131-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.181.108.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.181.12.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-NUBES-20190401",
+    "organization": "NUBES LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NL466-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.181.12.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.181.208.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-RSINET-20190403",
+    "organization": "RamSvyazInvest LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-RL363-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.181.208.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.181.24.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "LU",
+    "network_country_hint": "LU",
+    "network_name_hint": "LU-GCORELABS-20190401",
+    "organization": "G-Core Labs S.A.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-WIG6-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.181.24.0/24",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:5.181.252.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-NDEV-20190404",
+    "organization": "Anton Rashitovich Khalikov",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ARK8-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.181.252.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.181.60.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-NETBRIDGE-20190402",
+    "organization": "LLC VK",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-LLCN4-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.181.60.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.182.224.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SELECTEL-20190409",
+    "organization": "JSC Selectel",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL223-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.182.224.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.182.24.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-RTODON-20190408",
+    "organization": "RTO-DON LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-RL364-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.182.24.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.182.27.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-COREDATANET-20240603",
+    "organization": "Osnova Data Net LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ODNL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.182.27.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.182.36.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-NDEV-20190404",
+    "organization": "Anton Rashitovich Khalikov",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ARK8-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.182.36.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.182.4.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SELECTEL-20190404",
+    "organization": "JSC Selectel",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL223-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.182.4.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.182.52.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SVHOLD-20190405",
+    "organization": "Svyaz-Holding Ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL136-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.182.52.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.182.64.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-GKINTERLOGICA-20190405",
+    "organization": "GK INTERLOGICA LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GIL31-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.182.64.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.182.92.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-EXPERT-20190405",
+    "organization": "EXPERT PRO LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-EPL15-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.182.92.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.183.130.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "SC",
+    "network_country_hint": "GB",
+    "network_name_hint": "SC-NET-20190410",
+    "organization": "iNet Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-IL878-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.183.130.0/23",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:5.183.144.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-TELNET-20190410",
+    "organization": "BaikalWestCom Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-TL574-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.183.144.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.183.152.0/21": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_name_hint": "RIPE-NCC-MANAGED-ADDRESS-BLOCK",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.183.152.0/21",
     "status": "unverified"
   },
   "ip:5.183.180.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SKYTELECOM-20190411",
+    "organization": "TSK LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-TL643-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.183.180.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.183.188.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-OOOVPS-20190411",
+    "organization": "OOO VPS",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-OV29-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.183.188.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.183.232.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-ELITELTELECOMGROUP-20190411",
+    "organization": "Elitel Telecom Group Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ETGL3-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.183.232.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.183.28.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SPBGYP-20190409",
+    "organization": "SPB State Unitary Enterprise \"ATS Smolnogo\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SGS34-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.183.28.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.183.64.0/21": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_name_hint": "RIPE-NCC-MANAGED-ADDRESS-BLOCK",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.183.64.0/21",
     "status": "unverified"
   },
   "ip:5.187.40.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-LOGOS-20120809",
+    "organization": "JSC \"Digital network \"Logos\"\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-CN60-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.187.40.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.187.64.0/19": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-KVANT-TELECOM-20120810",
+    "organization": "JSC KVANT-TELEKOM",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-CJSC21-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.187.64.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.104.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-ATOMDATA-20120809",
+    "organization": "ATOMDATA JSC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-AJ134-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.104.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.112.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SELECTEL-20120809",
+    "organization": "JSC Selectel",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL223-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.112.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.121.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-EDGECENTER-20120809",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.121.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.128.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SELECTEL-20120809",
+    "organization": "JSC Selectel",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL223-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.128.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.136.0/21": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_name_hint": "RIPE-NCC-MANAGED-ADDRESS-BLOCK",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.188.136.0/21",
     "status": "unverified"
   },
   "ip:5.188.144.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-BCLAN-20120809",
+    "organization": "BCLan LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-BL218-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.144.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.149.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "EC-CUSTOMER-RU",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.149.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.150.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "EC-CUSTOMER-RU",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.150.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.156.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SELECTEL-20120809",
+    "organization": "JSC Selectel",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL223-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.156.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.160.0/21": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_name_hint": "RIPE-NCC-MANAGED-ADDRESS-BLOCK",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.188.160.0/21",
     "status": "unverified"
   },
   "ip:5.188.170.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-EDGECENTER-20120809",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.170.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.176.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-EDGECENTER-20120809",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.176.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.178.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-EDGECENTER-20120809",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.178.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.184.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SELECTEL-20120809",
+    "organization": "JSC Selectel",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL223-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.184.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.192.0/21": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_name_hint": "RIPE-NCC-MANAGED-ADDRESS-BLOCK",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.188.192.0/21",
     "status": "unverified"
   },
   "ip:5.188.2.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-EDGECENTER-20120809",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.2.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.201.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-PIN-20120809",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.201.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.202.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-PIN-20120809",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.202.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.204.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-PIN-20120809",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.204.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.207.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_country_hint": "RU",
+    "network_name_hint": "cust94821-network",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.188.207.0/24",
     "status": "unverified"
   },
   "ip:5.188.208.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-PIN-20120809",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.208.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.212.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-EDGECENTER-20120809",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.212.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.216.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-PIN-20120809",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.216.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.220.0/23": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
-    "organization": null,
+    "network_country_hint": "RU",
+    "network_name_hint": "ASARTA-NETWORK",
+    "organization": "ASARTA LTD",
     "source": "https://rdap.db.ripe.net/ip/5.188.220.0/23",
     "status": "unverified"
   },
   "ip:5.188.223.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_country_hint": "RU",
+    "network_name_hint": "nx0-NET",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.188.223.0/24",
     "status": "unverified"
   },
   "ip:5.188.224.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-EDGECENTER-20120809",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.224.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.229.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-EDGECENTER-20120809",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.229.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.233.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_country_hint": "RU",
+    "network_name_hint": "nx0-NET",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.188.233.0/24",
     "status": "unverified"
   },
   "ip:5.188.234.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "EE",
+    "network_country_hint": "RU",
+    "network_name_hint": "PINVDS-OU",
+    "organization": "PINVDS OU",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PO71-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.234.0/23",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:5.188.236.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "Transroute",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.236.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.24.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-OOOVPS-20120809",
+    "organization": "OOO VPS",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-OV29-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.24.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.243.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "KZ",
+    "network_country_hint": "KZ",
+    "network_name_hint": "Customers_FTTB",
+    "organization": "Kar-Tel LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-KL166-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.243.0/24",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:5.188.248.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_country_hint": "KZ",
+    "network_name_hint": "Customers_FTTB",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.188.248.0/24",
     "status": "unverified"
   },
   "ip:5.188.35.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-EDGECENTER-20120809",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.35.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.37.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "EC-CUSTOMER-RU",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.37.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.38.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-EDGECENTER-20120809",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.38.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.40.0/21": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_name_hint": "RIPE-NCC-MANAGED-ADDRESS-BLOCK",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.188.40.0/21",
     "status": "unverified"
   },
   "ip:5.188.50.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-PIN-20120809",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.50.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.52.0/22": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-RIaaS",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.188.52.0/22",
     "status": "unverified"
   },
   "ip:5.188.56.0/21": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_name_hint": "RIPE-NCC-MANAGED-ADDRESS-BLOCK",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.188.56.0/21",
     "status": "unverified"
   },
   "ip:5.188.68.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-PIN-20120809",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.68.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.72.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SELECTEL-20120809",
+    "organization": "JSC Selectel",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL223-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.72.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.8.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-PIN-20120809",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.8.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.80.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SELECTEL-20120809",
+    "organization": "JSC Selectel",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL223-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.80.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.84.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-PIN-20120809",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.84.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.88.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "PINVDS",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.88.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.188.96.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-UMNYESETI-20120809",
+    "organization": "Grand Ltd",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GL125-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.188.96.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.189.0.0/17": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-KTC-20120809",
+    "organization": "LLC \"KomTehCentr\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-EP3-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.189.0.0/17",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.189.192.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-KRASPROMSTROY-20120809",
+    "organization": "KrasPromStroy, LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-KL237-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.189.192.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.189.201.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-EDGECENTER-20120809",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.189.201.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.189.205.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-EDGECENTER-20120809",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.189.205.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.189.208.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-MTU-20120809",
+    "organization": "MTS PJSC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ZM1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.189.208.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.189.216.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-PIN-20120809",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.189.216.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.189.223.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-EDGECENTER-20120809",
+    "organization": "EdgeCenter LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GRL12-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.189.223.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.189.224.0/20": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SELECTEL-20120809",
+    "organization": "JSC Selectel",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-SL223-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.189.224.0/20",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.189.240.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-KRASPROMSTROY-20120809",
+    "organization": "KrasPromStroy, LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-KL237-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.189.240.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.189.248.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-PIN-20120809",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.189.248.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.189.252.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
-    "organization": null,
+    "network_country_hint": "RU",
+    "network_name_hint": "IP-Resurs-Network",
+    "organization": "IP Resurs Ltd",
     "source": "https://rdap.db.ripe.net/ip/5.189.252.0/24",
     "status": "unverified"
   },
   "ip:5.189.255.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "PIN-NETWORK",
+    "organization": "Petersburg Internet Network ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-PINL1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.189.255.0/24",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.199.192.0/19": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-FOR-20120828",
+    "organization": "Joint stock company \"For\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-JSC13-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.199.192.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.2.32.0/19": {
     "audit_version": 4,
@@ -2555,18 +3498,26 @@
     "status": "russian"
   },
   "ip:5.200.32.0/19": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-ENTERPRISE-CLOUD-20120830",
+    "organization": "Enterprise Cloud Ltd.",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ECL28-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.200.32.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.206.0.0/17": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-INTERSVYAZ-20120903",
+    "organization": "Intersvyaz-2 JSC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-IJ7-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.206.0.0/17",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.22.153.0/24": {
     "audit_version": 4,
@@ -2589,25 +3540,37 @@
     "status": "unverified"
   },
   "ip:5.226.152.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-GAZSVYAZ-20120907",
+    "organization": "Gazprom telecom LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-GL3-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.226.152.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.227.0.0/16": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-MTU-20120907",
+    "organization": "MTS PJSC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ZM1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.227.0.0/16",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.228.0.0/16": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-RTK-20120907",
+    "organization": "PJSC Rostelecom",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-JR8-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.228.0.0/16",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.23.48.0/21": {
     "audit_version": 4,
@@ -2630,151 +3593,233 @@
     "status": "unverified"
   },
   "ip:5.249.192.0/19": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-KURSKTELECOM-20120913",
+    "organization": "Limited liability company Kursktelecom",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-JSCK1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.249.192.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.250.168.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-MEGAFON-20120913",
+    "organization": "PJSC MegaFon",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-OM1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.250.168.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.250.232.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-FORTEX-20120914",
+    "organization": "FORTEX CJSC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-FC79-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.250.232.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.252.116.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
-    "organization": null,
+    "network_country_hint": "RU",
+    "network_name_hint": "PSERVERS-CLOUD-HOSTING",
+    "organization": "POWER-SERVERS-ROLE-ORG",
     "source": "https://rdap.db.ripe.net/ip/5.252.116.0/24",
     "status": "unverified"
   },
   "ip:5.252.172.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-OPTIKLINE-20190206",
+    "organization": "Optik Line LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-OLL14-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.252.172.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.252.176.0/24": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "MD",
+    "network_country_hint": "RU",
+    "network_name_hint": "MIVO-5-252-176-0-24-RU",
+    "organization": "MivoCloud SRL",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-MS569-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.252.176.0/24",
-    "status": "unverified"
+    "status": "foreign"
   },
   "ip:5.252.192.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-IPSERVER-20190206",
+    "organization": "IP Server LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-ISL73-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.252.192.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.252.28.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-IGRA-SERVICE-20190204",
+    "organization": "IGRA-SERVICE LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-IL373-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.252.28.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.252.64.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-SKOLKOVO-20190204",
+    "organization": "Non-commercial organization \"Foundation for Development of the Center for Elaboration and Commercialization of New Technologies\"",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-NOFD1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.252.64.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.253.100.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-DONTEL-20190208",
+    "organization": "OOO Dontel",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-OD35-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.253.100.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.253.144.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-IGRA-SERVICE-20190208",
+    "organization": "IGRA-SERVICE LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-IL373-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.253.144.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.253.164.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-AVTOGERMES-ZAPAD-20190208",
+    "organization": "AvtoGERMES-Zapad, LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-AL638-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.253.164.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.253.60.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-ADMINVPS-20190207",
+    "organization": "AdminVPS OOO",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-AL501-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.253.60.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.253.62.0/24": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_country_hint": "RU",
+    "network_name_hint": "ADMINVPS",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/5.253.62.0/24",
     "status": "unverified"
   },
   "ip:5.254.176.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-TRANSTELECOM-20120914",
+    "organization": "Joint Stock Company TransTeleCom",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-CJSC19-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.254.176.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.254.224.0/19": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-TRANSTELECOM-20120914",
+    "organization": "Joint Stock Company TransTeleCom",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-CJSC19-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.254.224.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.255.192.0/19": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-YANDEX-20120914",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.255.192.0/19",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.255.224.0/20": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-YANDEX-20120914",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.255.224.0/20",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.255.240.0/21": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-YANDEX-20120914",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.255.240.0/21",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.255.248.0/23": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-YANDEX-20120914",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.255.248.0/23",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.255.252.0/22": {
-    "checked_at": 1794607858,
-    "country": null,
-    "organization": null,
+    "audit_version": 4,
+    "checked_at": 1794619979,
+    "country": "RU",
+    "network_country_hint": "RU",
+    "network_name_hint": "RU-YANDEX-20120914",
+    "organization": "YANDEX LLC",
+    "owner_source": "https://rest.db.ripe.net/ripe/organisation/ORG-YA1-RIPE.json",
     "source": "https://rdap.db.ripe.net/ip/5.255.252.0/22",
-    "status": "unverified"
+    "status": "russian"
   },
   "ip:5.28.16.0/20": {
     "audit_version": 4,
@@ -4034,15 +5079,21 @@
     "status": "foreign"
   },
   "ip:8.209.0.0/19": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_country_hint": "RU",
+    "network_name_hint": "ALICLOUD-RU",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/8.209.0.0/19",
     "status": "unverified"
   },
   "ip:8.209.128.0/18": {
-    "checked_at": 1794607858,
+    "audit_version": 4,
+    "checked_at": 1794619979,
     "country": null,
+    "network_country_hint": "RU",
+    "network_name_hint": "ALICLOUD-RU",
     "organization": null,
     "source": "https://rdap.db.ripe.net/ip/8.209.128.0/18",
     "status": "unverified"
