@@ -44,19 +44,14 @@ class UpdateTests(unittest.TestCase):
             self.assertTrue(u.refresh(self.path, data, dry_run=True))
         self.assertEqual(self.path.read_text(), original)
 
-    def test_requested_ipv4_range_keeps_exact_cidr(self):
-        import ipaddress
-        supernet = ipaddress.ip_network("85.172.0.0/14")
-        requested = ipaddress.ip_network("85.175.96.0/22")
-        explicit = u.preserve_pinned_ipv4([supernet])
-        self.assertIn(requested, explicit)
-        self.assertNotIn(supernet, explicit)
-        self.assertEqual(list(ipaddress.collapse_addresses(explicit)), [supernet])
-
-    def test_requested_ipv4_range_stays_when_suip_omits_it(self):
-        import ipaddress
-        requested = ipaddress.ip_network("85.175.96.0/22")
-        self.assertIn(requested, u.preserve_pinned_ipv4([]))
+    def test_explicit_requested_prefix_is_written_unchanged(self):
+        data = "8.8.8.0-8.8.8.255\n2001:4860::-2001:4860:ffff:ffff:ffff:ffff:ffff:ffff\n"
+        with patch.object(u, "MIN_SOURCE_LINES", 2), patch.dict(u.MIN_NETWORKS, {4: 1, 6: 1}):
+            self.assertTrue(u.refresh(self.path, data))
+        saved = json.loads(self.path.read_text(encoding="utf-8"))["rules"][0]["ip_cidr"]
+        self.assertIn("85.175.0.0/14", saved)
+        self.assertNotIn("85.175.96.0/22", saved)
+        self.assertIn("85.172.0.0/14", [str(n) for n in u.current_ranges(self.path)[4]])
 
     def test_retention_for_split_prefix(self):
         import ipaddress
