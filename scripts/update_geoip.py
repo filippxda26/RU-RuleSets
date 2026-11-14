@@ -18,6 +18,7 @@ MIN_RETAINED = 0.80
 PINNED_CIDR = "85.175.96.0/22"
 PINNED_NETWORK = ipaddress.ip_network(PINNED_CIDR)
 EXCLUDED_SUPERNET = ipaddress.ip_network("85.175.0.0/14", strict=False)
+FOREIGN_EXCLUSIONS_PATH = Path("geoip/foreign-company-exclusions.txt")
 
 def download():
     req = urllib.request.Request(
@@ -75,6 +76,47 @@ def apply_pinned_ipv4(networks):
     return list(ipaddress.collapse_addresses([*kept, PINNED_NETWORK]))
 
 
+
+def load_foreign_exclusions(path):
+    """Read permanent foreign registrant exclusions, failing closed if missing."""
+    exclusions = {4: [], 6: []}
+    for number, raw in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+        line = raw.split("#", 1)[0].strip()
+        if not line:
+            continue
+        try:
+            network = ipaddress.ip_network(line, strict=True)
+        except ValueError as exc:
+            raise ValueError(f"Bad foreign exclusion on line {number}: {line!r}") from exc
+        if not network.is_global:
+            raise ValueError(f"Foreign exclusion is not global: {line}")
+        exclusions[network.version].append(network)
+    return {version: list(ipaddress.collapse_addresses(exclusions[version])) for version in (4, 6)}
+
+
+def apply_foreign_exclusions(networks, exclusions):
+    """Subtract excluded networks, even when SUIP returns a broader subnet."""
+    cleaned = {4: [], 6: []}
+    for version in (4, 6):
+        for network in networks[version]:
+            parts = [network]
+            for excluded in exclusions[version]:
+                remaining = []
+                for part in parts:
+                    if not part.overlaps(excluded):
+                        remaining.append(part)
+                    elif part.subnet_of(excluded):
+                        continue
+                    else:
+                        remaining.extend(part.address_exclude(excluded))
+                parts = remaining
+                if not parts:
+                    break
+            cleaned[version].extend(parts)
+        cleaned[version] = list(ipaddress.collapse_addresses(cleaned[version]))
+    return cleaned
+
+
 def current_ranges(path):
     data = json.loads(path.read_text(encoding="utf-8"))
     if data.get("version") != 1 or len(data.get("rules", [])) != 1:
@@ -101,9 +143,10 @@ def covered_addresses(before, after):
             j += 1
     return retained, total
 
-def refresh(path, source, dry_run=False):
+def refresh(path, source, dry_run=False, exclusions_file=FOREIGN_EXCLUSIONS_PATH):
     old, new = current_ranges(path), parse_ranges(source)
     new[4] = apply_pinned_ipv4(new[4])
+    new = apply_foreign_exclusions(new, load_foreign_exclusions(exclusions_file))
     for version in (4, 6):
         kept, total = covered_addresses(old[version], new[version])
         ratio = kept / total if total else 0
@@ -126,9 +169,10 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--file", type=Path, default=Path("geoip/ru.json"))
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--foreign-exclusions", type=Path, default=FOREIGN_EXCLUSIONS_PATH)
     args = parser.parse_args()
     try:
-        refresh(args.file, download(), dry_run=args.dry_run)
+        refresh(args.file, download(), dry_run=args.dry_run, exclusions_file=args.foreign_exclusions)
         return 0
     except (OSError, ValueError, RuntimeError, KeyError) as exc:
         print(f"SUIP refresh aborted: {exc}", file=sys.stderr)
