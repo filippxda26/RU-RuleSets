@@ -14,9 +14,10 @@ MAX_DOWNLOAD_BYTES = 8 * 1024 * 1024
 MIN_SOURCE_LINES = 10000
 MIN_NETWORKS = {4: 2000, 6: 2000}
 MIN_RETAINED = 0.80
-# Explicit spelling requested for sing-box; /14 mathematically covers 85.172.0.0/14.
-PINNED_CIDR = "85.175.0.0/14"
-PINNED_NETWORK = ipaddress.ip_network(PINNED_CIDR, strict=False)
+# Use only the requested /22 inside the previously pinned /14.
+PINNED_CIDR = "85.175.96.0/22"
+PINNED_NETWORK = ipaddress.ip_network(PINNED_CIDR)
+EXCLUDED_SUPERNET = ipaddress.ip_network("85.175.0.0/14", strict=False)
 
 def download():
     req = urllib.request.Request(
@@ -63,13 +64,24 @@ def parse_ranges(text):
             raise ValueError(f"Suspected incomplete IPv{version} data: {len(result[version])} CIDRs")
     return result
 
+def apply_pinned_ipv4(networks):
+    """Replace the broad 85.172.0.0/14 coverage with only 85.175.96.0/22."""
+    kept = []
+    for network in networks:
+        if not network.overlaps(EXCLUDED_SUPERNET):
+            kept.append(network)
+        elif EXCLUDED_SUPERNET.subnet_of(network) and network != EXCLUDED_SUPERNET:
+            kept.extend(network.address_exclude(EXCLUDED_SUPERNET))
+    return list(ipaddress.collapse_addresses([*kept, PINNED_NETWORK]))
+
+
 def current_ranges(path):
     data = json.loads(path.read_text(encoding="utf-8"))
     if data.get("version") != 1 or len(data.get("rules", [])) != 1:
         raise ValueError("Unexpected sing-box JSON")
     groups = {4: [], 6: []}
     for value in data["rules"][0]["ip_cidr"]:
-        net = ipaddress.ip_network(value, strict=False)
+        net = ipaddress.ip_network(value, strict=True)
         groups[net.version].append(net)
     return {v: list(ipaddress.collapse_addresses(groups[v])) for v in (4, 6)}
 
@@ -91,16 +103,14 @@ def covered_addresses(before, after):
 
 def refresh(path, source, dry_run=False):
     old, new = current_ranges(path), parse_ranges(source)
-    new[4] = list(ipaddress.collapse_addresses([*new[4], PINNED_NETWORK]))
+    new[4] = apply_pinned_ipv4(new[4])
     for version in (4, 6):
         kept, total = covered_addresses(old[version], new[version])
         ratio = kept / total if total else 0
         print(f"IPv{version}: old={len(old[version])}; new={len(new[version])}; retained={ratio:.2%}")
         if ratio < MIN_RETAINED:
             raise ValueError(f"Refusing excessive IPv{version} deletion ({ratio:.1%} retained)")
-    cidrs = [PINNED_CIDR if n == PINNED_NETWORK else str(n) for v in (4, 6) for n in new[v]]
-    if PINNED_CIDR not in cidrs:
-        cidrs.append(PINNED_CIDR)
+    cidrs = [str(n) for v in (4, 6) for n in new[v]]
     content = json.dumps({"version": 1, "rules": [{"ip_cidr": cidrs}]}, separators=(",", ":"))
     if path.read_text(encoding="utf-8") == content:
         print("GeoIP unchanged")
