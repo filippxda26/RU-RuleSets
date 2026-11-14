@@ -44,6 +44,20 @@ class UpdateTests(unittest.TestCase):
             self.assertTrue(u.refresh(self.path, data, dry_run=True))
         self.assertEqual(self.path.read_text(), original)
 
+    def test_requested_ipv4_range_keeps_exact_cidr(self):
+        import ipaddress
+        supernet = ipaddress.ip_network("85.172.0.0/14")
+        requested = ipaddress.ip_network("85.175.96.0/22")
+        explicit = u.preserve_pinned_ipv4([supernet])
+        self.assertIn(requested, explicit)
+        self.assertNotIn(supernet, explicit)
+        self.assertEqual(list(ipaddress.collapse_addresses(explicit)), [supernet])
+
+    def test_requested_ipv4_range_stays_when_suip_omits_it(self):
+        import ipaddress
+        requested = ipaddress.ip_network("85.175.96.0/22")
+        self.assertIn(requested, u.preserve_pinned_ipv4([]))
+
     def test_retention_for_split_prefix(self):
         import ipaddress
         old = [ipaddress.ip_network("8.8.8.0/24")]
