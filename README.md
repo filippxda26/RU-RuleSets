@@ -24,7 +24,7 @@ Russian organization. The GeoSite list is unchanged by this automation.
 
 ## Исключение IP-диапазонов иностранных организаций
 
-Из `geoip/ru.json` удалены 51 IPv4-сеть, для которых аудит RIPE
+Из `geoip/ru.json` удалены 59 IPv4-сетей, для которых аудит RIPE
 установил страну регистрации организации-держателя за пределами России.
 Постоянный список исключений — `geoip/foreign-company-exclusions.txt`;
 сведения об организациях, странах и ссылки на реестр сохранены в
