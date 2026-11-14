@@ -14,6 +14,7 @@ MAX_DOWNLOAD_BYTES = 8 * 1024 * 1024
 MIN_SOURCE_LINES = 10000
 MIN_NETWORKS = {4: 2000, 6: 2000}
 MIN_RETAINED = 0.80
+PINNED_RU_IPV4 = ipaddress.ip_network("85.175.96.0/22")
 
 def download():
     req = urllib.request.Request(
@@ -60,6 +61,19 @@ def parse_ranges(text):
             raise ValueError(f"Suspected incomplete IPv{version} data: {len(result[version])} CIDRs")
     return result
 
+def preserve_pinned_ipv4(networks):
+    """Preserve the exact user-requested /22 even inside a SUIP supernet."""
+    merged = list(ipaddress.collapse_addresses([*networks, PINNED_RU_IPV4]))
+    result = []
+    for network in merged:
+        if PINNED_RU_IPV4.subnet_of(network) and network != PINNED_RU_IPV4:
+            result.extend(network.address_exclude(PINNED_RU_IPV4))
+        else:
+            result.append(network)
+    result.append(PINNED_RU_IPV4)
+    return sorted(result, key=lambda network: (int(network.network_address), network.prefixlen))
+
+
 def current_ranges(path):
     data = json.loads(path.read_text(encoding="utf-8"))
     if data.get("version") != 1 or len(data.get("rules", [])) != 1:
@@ -88,6 +102,7 @@ def covered_addresses(before, after):
 
 def refresh(path, source, dry_run=False):
     old, new = current_ranges(path), parse_ranges(source)
+    new[4] = preserve_pinned_ipv4(new[4])
     for version in (4, 6):
         kept, total = covered_addresses(old[version], new[version])
         ratio = kept / total if total else 0
